@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import {useState} from 'react';
 import Search from './searchBox'
 import img from './assets/Weather.jpg';
@@ -58,7 +58,7 @@ export default function InfoBox({info}) {
 }
 
 
-=======
+
 import {useState} from 'react';
 import Search from './searchBox'
 import img from './assets/Weather.jpg';
@@ -115,7 +115,7 @@ export default function InfoBox({info}) {
         </div>
 
     );
-}
+};
 
 
->>>>>>> d70eebb ( changed UI)
+

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import SearchBox from './searchBox.jsx';
 import { useState } from 'react';
 import InfoBox from './InfoBox';
@@ -27,7 +27,7 @@ export default function WeatherApp() {
             <InfoBox info={weatherData} />
         </div>
     );
-=======
+};
 import SearchBox from './searchBox.jsx';
 import { useState } from 'react';
 import InfoBox from './InfoBox';
@@ -60,5 +60,5 @@ export default function WeatherApp() {
             </div>
         </div>
     );
->>>>>>> d70eebb ( changed UI)
+
 }
