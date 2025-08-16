@@ -1,3 +1,87 @@
+<<<<<<< HEAD
+=======
+/* Make the gradient cover the whole page */
+body, #root, .app-bg {
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Weather container stays centered and card-like */
+.weather-container {
+  background: rgba(255,255,255,0.85);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 40px 30px;
+  max-width: 400px;
+  width: 100%;
+}
+
+body, #root, .app-bg {
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-card {
+  background: rgba(255,255,255,0.95);
+  border-radius: 28px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 48px 40px;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-flex {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: center;
+}
+
+.search-container {
+  flex: 1;
+  min-width: 260px;
+}
+
+.weather-container {
+  flex: 1;
+  min-width: 260px;
+  background: none;
+  box-shadow: none;
+  border-radius: 18px;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  .main-flex {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+  .main-card {
+    padding: 24px 10px;
+  }
+}
+
+
+>>>>>>> d70eebb ( changed UI)
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -40,3 +124,23 @@
 .read-the-docs {
   color: #888;
 }
+<<<<<<< HEAD
+=======
+
+.app-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-container {
+  background: rgba(255,255,255,0.85);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 40px 30px;
+  max-width: 400px;
+  width: 100%;
+}
+>>>>>>> d70eebb ( changed UI)
