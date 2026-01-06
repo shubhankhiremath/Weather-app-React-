@@ -2,9 +2,9 @@
 import {useState} from 'react';
 import Search from './searchBox'
 import img from './assets/Weather.jpg';
-import cold from './assets/cold.jpg';
+import cold from './assets/Cold.jpg';
 import hot from './assets/download.jpg';
-import humid from './assets/humid.webp';
+import humid from './assets/Humid.webp';
 
 
 
