@@ -1,7 +1,7 @@
 {
   "name": "materialui",
   "private": true,
-  "version": "0.0.0",
+  "version": "NPM_VERSION",
   "type": "module",
   "scripts": {
     "dev": "vite",
